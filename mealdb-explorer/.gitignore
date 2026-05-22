@@ -1,0 +1,36 @@
+# ── Java / Maven ──────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+.classpath
+.project
+.settings/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Spring Boot ───────────────────────────────────────────────
+*.pid
+spring-shell.log
+
+# ── Environment ───────────────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Node (if any tooling added later) ─────────────────────────
+node_modules/
+dist/
